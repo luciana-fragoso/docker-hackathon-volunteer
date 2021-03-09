@@ -1,0 +1,112 @@
+.carousel {
+  background-color: #edf8fd;
+}
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.body {
+  position: relative;
+}
+.carousel-item {
+  text-align: center;
+}
+
+.header-role {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.role-text {
+
+  margin-right: 3%;
+}
+.role-title-p {
+  color: #CC4984;
+
+}
+
+.role-image {
+width: 85% !important;
+}
+
+.header-role-s {
+
+  display: flex;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+@media all and (max-width: 1120px) {
+  .header-role {
+    display: block;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+  }
+
+  .header-role-s {
+    display: block;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+
+  .role-text , .role-image{
+    width: 100% !important;
+  }
+
+  .role-title {
+    margin-top: 3%;
+  }
+
+  .roles-details {
+    width: 100% !important;
+    margin-top: 4%;
+  }
+}
+
+
+
+.roles-details {
+  background-color: #d5e5ed  !important;
+  border-radius: 5px;
+  width: 95%;
+  margin-right: 5%;
+  padding: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+  border-radius: 10px;
+}
+
+.role-icon
+{
+  margin-top: 3%;
+  width: 24% !important;
+}
+.role-aux{
+  display: flex;
+}
+@media all and (max-width: 750px) {
+  .role-aux {
+    display:block;
+  }
+
+.role-icon {
+  width: 100%;
+  margin: auto;
+}
+
+}
+
+.button-register{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}

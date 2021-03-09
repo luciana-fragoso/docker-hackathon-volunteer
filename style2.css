@@ -1,0 +1,113 @@
+.main{
+
+  width: 100%;
+  display: flex;
+
+}
+.my-image {
+  border-radius: 10px;
+}
+.main-inner {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  width: 55%;
+  padding: 5%;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.my-label {
+  font-size: 14px;
+}
+.my-text-area {
+   resize: none;
+}
+.principal {
+  background-color: #FFFFFF;
+  width: 100%;
+  margin-right: 0 !important;
+}
+.my-button-align{
+  text-align: center;
+}
+.menu-side {
+  width: 25%;
+}
+
+.menu-top {
+  width: 100%;
+}
+
+.blocks-small {
+  width: 90%;
+}
+@media all and (max-width: 699px) {
+  .main {
+    display: block;
+    }
+
+      .my-illustration {
+      text-align: center;
+      width: 100% !important;
+    }
+
+    .main-inner {
+      width: 95%;
+      margin-left: 5%;
+    }
+
+}
+@media all and (max-width: 559px) {
+.menu-side {
+  display: flex;
+  width: 97%;
+  margin-right: 5%;
+}
+.main {
+  width: 100%;
+float: center;
+}
+.principal {
+  display: inline-block;
+}
+
+.my-button{
+  font-size: 14px !important;
+     font-family: 'Roboto', sans-serif;
+}
+
+
+
+}
+
+.my-illustration {
+  width: 40%;
+}
+
+.menu-options {
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFFFFF !important ;
+}
+
+a:hover{
+text-decoration: none !important;
+color: #FFFFFF;
+
+}
+
+
+.navbar-menu {
+  background-color: #659dbd;
+}
+
+
+
+a:hover {
+  color: blue;
+}
+.main-testimonial {
+  width: 90% !important;
+  margin-right: 5%;
+}
